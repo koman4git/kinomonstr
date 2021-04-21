@@ -1,12 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 header{
     background-color: darkslateblue;
     height: 177px;
     font-size: 0,8em;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: auto;
+    margin-right: auto;
     min-width: 900px;
 }
-.container, .logo, .menubar, .site_content, footer{
+.logo, .menubar, .site_content, footer{
     margin-left: auto;
     margin-right: auto;
 }
@@ -36,9 +40,23 @@ header{
 ul.menu{
     float: right;
 }
-ui.menu li{
+ul.menu li{
     float: left;
     padding: 0 0 0 9px;
     list-style: none;
     margin: 1px 2px 0 0;
+}
+ul.menu li a{
+    font: normal 100% 'trebuchet ms', sans-serif;
+    display: block;
+    height: 20px;
+    padding: 6px 35px 5px 28px;
+    color: #fff;
+    text-decoration: none;
+}
+ul.menu li.selected a{
+    color: #aeb002;
+}
+ul.menu li a:hover{
+    color: #e4ec04;
 }
