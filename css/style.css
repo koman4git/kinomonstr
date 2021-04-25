@@ -10,7 +10,7 @@ header{
     margin-right: auto;
     min-width: 900px;
 }
-.logo, .menubar, .site_content, footer{
+.logo, .menubar, main, footer{
     margin-left: auto;
     margin-right: auto;
 }
