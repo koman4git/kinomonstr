@@ -35,7 +35,8 @@ ul{
 }
 ul li{
     margin: 0 0 6px 0;
-    padding: 0 0 4px 5px;line-height: 1.5em;
+    padding: 0 0 4px 5px;
+    line-height: 1.5em;
 }
 a, a:hover{
     outline: none;
@@ -44,7 +45,7 @@ a, a:hover{
 }
 header{
     background-color: darkslateblue;
-    height: 177px;
+/*    height: 177px;*/
     font-size: 0.8em;
     margin-left: auto;
     margin-right: auto;
