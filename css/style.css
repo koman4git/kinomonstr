@@ -38,10 +38,16 @@ ul li{
     padding: 0 0 4px 5px;
     line-height: 1.5em;
 }
-a, a:hover{
+a{
     outline: none;
     text-decoration: underline;
     color: #aeb002;
+}
+a:hover{
+    color: #effa73;
+}
+hr{
+    border: solid 1px #f3f3f3;
 }
 header{
     background-color: darkslateblue;
@@ -159,6 +165,9 @@ main{
     border-radius: 5px;
     border: solid 5px #dad7d5;
     width: 22%;
+}
+.posts_content{
+    font-size: 0.8em;
 }
 footer{
     width: 100%;
